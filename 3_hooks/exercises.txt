@@ -1,0 +1,14 @@
+Exercício 1: Uso de useEffect para Sincronização de Dados
+
+Você precisa exibir informações de um usuário que são recebidas via props em um componente.
+Crie um componente que use o hook useEffect para sincronizar as informações do usuário com o título do documento (o título da aba no navegador).
+
+Exercício 2: Memorizando Cálculos com useMemo
+
+Suponha que você tenha um componente que realiza um cálculo pesado, como uma função de fibonacci que é chamada com um número específico
+Use o hook useMemo para evitar que o cálculo seja refeito desnecessariamente
+
+Exercício 3: Criação e Uso de um Custom hook
+
+Crie um custom hook chamado useOnlineStatus que rastreia se o usuário está online ou offline.
+Use este hook em um componente para exibir o status atual do usuário.
