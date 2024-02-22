@@ -6,10 +6,11 @@ body {
 }
 
 h1 {
-  color: #333
+  color: #333;
 }
 
 input[type="text"] {
+  width: 200px;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -33,7 +34,11 @@ li {
   border-radius: 4px;
 }
 
-button{
+li span {
+  cursor: pointer;
+}
+
+button {
   background-color: #5cb85c;
   color: #fff;
   border: none;
@@ -46,11 +51,10 @@ button:hover {
   background-color: #449d44;
 }
 
-button[type="submit"]{
-  background-color: #337ab7
+button[type="submit"] {
+  background-color: #337ab7;
 }
 
-button[type="submit"]:hover{
-  background-color: #286090
+button[type="submit"]:hover {
+  background-color: #286090;
 }
-
