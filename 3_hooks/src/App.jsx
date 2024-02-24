@@ -11,6 +11,9 @@ import Container from "./components/Container";
 import PerfilDeUsuario from "./components/PerfilDeUsuario";
 import CalculoPesado from "./components/CalculoPesado";
 import ContadorCallback from "./components/ContadorCallback";
+import Usuario from "./components/Usuario";
+import CalculoFibonacci from "./components/CalculoFibonacci";
+import UserStatus from "./components/UserStatus";
 
 function App() {
   return (
@@ -48,6 +51,11 @@ function App() {
     {/* 24 - useMemo e useCallback */}
     <CalculoPesado numero={5}/>
     <ContadorCallback/>
+
+    {/* Exercícios */}
+    <Usuario nome={"Gabriel"} idade={26}/>
+    <CalculoFibonacci n={10} />
+    <UserStatus/>
 
     </>
   );
